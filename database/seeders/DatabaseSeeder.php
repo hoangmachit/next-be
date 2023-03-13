@@ -21,8 +21,8 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             LanguageSeeder::class,
-            ProductStatus::class,
-            Status::class,
+            ProductStatusSeeder::class,
+            StatusSeeder::class,
             SexSeeder::class,
             PaymentSeeder::class
         ]);
