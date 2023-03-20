@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Collection extends Model
 {
     use HasFactory;
+    protected $table = 'collection';
     protected $fillable =[
         'parent_id',
         'name',    
