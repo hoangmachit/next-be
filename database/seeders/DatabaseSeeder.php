@@ -24,7 +24,9 @@ class DatabaseSeeder extends Seeder
             ProductStatusSeeder::class,
             StatusSeeder::class,
             SexSeeder::class,
-            PaymentSeeder::class
+            PaymentSeeder::class,
+            DeviceSeeder::class,
+            OrderStatusSeeder::class
         ]);
     }
 }
